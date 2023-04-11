@@ -8,19 +8,25 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <h1 id="title">Academic form</h1>
+    <p id="description">This is a brief explanation of the project we are doing</p>
 
-    <!--
+    <form id="survey-form">
+      <div>
+        <label id="name-label">Name</label>
+        <input id="name" type="name" required placeholder="Put your name">
+      </div>
+      <div>
+        <label id="email-label">Email</label>
+        <input id="email" type="email" required placeholder="Put your email here">
+      </div>
+      <div>
+        <label id="number-label">Age</label>
+        <input id="number" type="number" min="12" max="100" placeholder="Put your age here">
+      </div>
 
-    Hello Camper!
+    </form>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
     <script  src="js/index.js"></script>
   </body>
 </html>
